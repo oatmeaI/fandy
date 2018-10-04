@@ -15,8 +15,10 @@ Feel free to make pull requests.
 ## Install dependencies
 `npm install`
 
-## Test
+
+## Run tests
 `npm test`
+
 
 ## Functions
 ### pipe(...fns)
