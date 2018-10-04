@@ -1,4 +1,4 @@
-[![Bui[![Build Status](https://travis-ci.org/kvillaniholland/fandy.svg?branch=master)](https://travis-ci.org/kvillaniholland/fandy)
+[![Build Status](https://travis-ci.org/kvillaniholland/fandy.svg?branch=master)](https://travis-ci.org/kvillaniholland/fandy)
 [![Coverage Status](https://coveralls.io/repos/github/kvillaniholland/fandy/badge.svg?branch=master)](https://coveralls.io/github/kvillaniholland/fandy?branch=master)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
