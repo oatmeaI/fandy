@@ -1,0 +1,22 @@
+{
+  "name": "utils",
+  "version": "0.0.1",
+  "description": "A set of util functions I always find myself wanting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "ava": {
+		"require": [
+			"esm"
+		]
+	},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "1.0.0-beta.8"
+  },
+  "dependencies": {
+    "esm": "^3.0.84"
+  }
+}
