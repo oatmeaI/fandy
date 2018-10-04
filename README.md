@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/kvillaniholland/js-utils.svg?branch=master)](https://travis-ci.org/kvillaniholland/js-utils)
-[![Coverage Status](https://coveralls.io/repos/github/kvillaniholland/js-utils/badge.svg?branch=master)](https://coveralls.io/github/kvillaniholland/js-utils?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/kvillaniholland/fandy/badge.svg?branch=master)](https://coveralls.io/github/kvillaniholland/fandy?branch=master)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 # fandy 👋
