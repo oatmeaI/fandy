@@ -11,6 +11,9 @@ This project is also a chance for me to practice setting up CI, full test covera
 
 Feel free to make pull requests.
 
+## Install
+`npm install fandy --save`
+
 
 ## Install dependencies
 `npm install`
