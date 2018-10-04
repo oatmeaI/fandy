@@ -4,7 +4,7 @@
   "description": "A set of util functions I always find myself wanting.",
   "main": "index.js",
   "scripts": {
-    "test": "nyc ava && nyc report --reporter=text-lcov | coveralls"
+    "test": "nyc ava && nyc report --reporter=text-lcov | coveralls && standard"
   },
   "ava": {
     "require": [
