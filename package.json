@@ -1,7 +1,7 @@
 {
-  "name": "utils",
-  "version": "0.0.1",
-  "description": "A set of util functions I always find myself wanting.",
+  "name": "fandy",
+  "version": "1.0.0",
+  "description": "A set of JavaScript utility functions I find myself needing frequently.",
   "main": "index.js",
   "scripts": {
     "test": "nyc ava && nyc report --reporter=text-lcov | coveralls && standard"
@@ -11,8 +11,8 @@
       "esm"
     ]
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Keenan Villani-Holland <kvillaniholland@gmail.com>",
+  "license": "GPL-3.0-or-later",
   "devDependencies": {
     "ava": "1.0.0-beta.8",
     "coveralls": "^3.0.2",
