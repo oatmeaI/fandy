@@ -7,10 +7,10 @@
     "test": "ava"
   },
   "ava": {
-		"require": [
-			"esm"
-		]
-	},
+    "require": [
+      "esm"
+    ]
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
