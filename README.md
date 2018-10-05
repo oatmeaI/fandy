@@ -68,3 +68,25 @@ const result = zip(keys, firstNames, lastNames, cities)
 //    { firstName: 'Tim', lastName: 'Tiny', currentCity: undefined }
 //  ]
 ```
+
+### last(array, index = 1)
+Returns the `index`-th item from the end of `array`
+```js
+const array = ['Bob', 'James', 'Robert']
+const result = last(array)
+// result = 'Robert'
+
+
+const array = ['Bob', 'James', 'Robert']
+const result = last(array, 2)
+// result = 'James'
+```
+
+### removeAt(array, index)
+Returns a new array consisting of `array` with element at `index` removed
+```js
+const array = ['Bob', 'James', 'Robert']
+const result = removeAt(array, 1)
+// result = ['Bob', 'Robert']
+```
+

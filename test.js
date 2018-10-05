@@ -1,5 +1,5 @@
 import test from 'ava'
-import { pipe, split, uniq, zip } from './index'
+import { pipe, split, uniq, zip, last, removeAt } from './index'
 
 test('pipe', test => {
   const first = x => x + 1
@@ -34,4 +34,22 @@ test('zip', test => {
     { firstName: 'James', lastName: 'Rocket', currentCity: 'Paris' },
     { firstName: 'Tim', lastName: 'Tiny', currentCity: undefined }
   ])
+})
+
+test('last', test => {
+  const array = ['Bob', 'James', 'Robert']
+  const result = last(array)
+  test.is(result, 'Robert')
+})
+
+test('last with index', test => {
+  const array = ['Bob', 'James', 'Robert']
+  const result = last(array, 2)
+  test.is(result, 'James')
+})
+
+test('removeAt', test => {
+  const array = ['Bob', 'James', 'Robert']
+  const result = removeAt(array, 1)
+  test.deepEqual(result, ['Bob', 'Robert'])
 })
