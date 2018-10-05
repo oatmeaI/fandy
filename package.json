@@ -1,6 +1,6 @@
 {
   "name": "fandy",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "A set of JavaScript utility functions I find myself needing frequently.",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,15 @@
   },
   "author": "Keenan Villani-Holland <kvillaniholland@gmail.com>",
   "license": "GPL-3.0-or-later",
+  "keywords": [
+    "utility",
+    "pipe",
+    "split",
+    "zip",
+    "uniq",
+    "handy",
+    "functional"
+  ],
   "devDependencies": {
     "ava": "1.0.0-beta.8",
     "coveralls": "^3.0.2",
