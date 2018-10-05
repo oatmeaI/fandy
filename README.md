@@ -76,7 +76,6 @@ const array = ['Bob', 'James', 'Robert']
 const result = last(array)
 // result = 'Robert'
 
-
 const array = ['Bob', 'James', 'Robert']
 const result = last(array, 2)
 // result = 'James'
