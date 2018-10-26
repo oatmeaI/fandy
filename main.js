@@ -12,3 +12,8 @@ export const zip = (keys, ...arrays) =>
 export const last = (array, index = 1) => array.slice(-index)[0]
 
 export const removeAt = (array, index) => array.filter((element, currentIndex) => currentIndex !== index)
+
+export const switcher = (cases, otherwise, value) => {
+  const result = cases[value] || otherwise
+  return typeof result === 'function' ? result() : result
+}

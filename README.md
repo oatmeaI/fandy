@@ -89,3 +89,34 @@ const result = removeAt(array, 1)
 // result = ['Bob', 'Robert']
 ```
 
+### switcher(cases, otherwise, value)
+Returns the `case` which has a key that matches `value`. If none match, returns `otherwise`
+```js
+const cases = {
+  true: "It's true",
+  false: "It's false"
+}
+const result = switcher(cases, 'otherwise', true)
+// result = "It's true"
+
+const cases = {
+  'test': "It's a test",
+  'other': "It's something else"
+}
+const result = switcher(cases, 'otherwise', 'other')
+// result = "It's something else"
+
+const cases = {
+  true: "It's true",
+  false: "It's false"
+}
+const result = switcher(cases, 'otherwise', 'none of the above')
+// result = 'otherwise'
+
+const cases = {
+  true: () => "It's true",
+  false: "It's false"
+}
+const result = switcher(cases, 'default', true)
+// result = "It's true"
+```
