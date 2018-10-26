@@ -16,7 +16,7 @@ test('switcher with strings', test => {
     'other': "It's something else"
   }
   const result = switcher(cases, 'otherwise', 'other')
-  test.is(result, "It's false")
+  test.is(result, "It's  something else")
 })
 
 test('switcher fallthrough', test => {
